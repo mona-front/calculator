@@ -1,0 +1,10 @@
+
+@media screen  and(min-width:375px){
+    .conatiner{
+        flex-direction: column;
+        background-color: red;
+    }
+    .leftSection,.rightSection{
+        width: 100%;
+    }
+}

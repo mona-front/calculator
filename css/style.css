@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: hsl(172, 67%, 45%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:10%;
+    font-family:  "Open Sans";
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("font/SpaceMono-Bolhttps://fonts.google.com/specimen/Space+Monod")
+        
+  }
+
+h1,h2,h3,h4,h5,h6{
+    padding:0;
+    margin: 0;
+}
+input{
+    font-family:"Open Sans";
+    font-size: 15px;
+}
+header{
+    padding-bottom: 10px;
+}
+.conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    flex-direction: row-reverse;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    font-family: "Open Sans";
+}
+.rightSection{
+    position: relative;
+    background-color:hsl(183, 100%, 15%);
+    width: 50%;
+    height:300px;
+    border-radius: 5px;
+    padding:15px;
+    color: hsl(185, 41%, 84%);
+    text-align: center;
+    font-family: "Open Sans";
+}
+.leftSection{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    text-align:start;
+    padding: 15px;
+    font-family:"Open Sans" ;
+    
+}
+.box{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+.box small{
+    font-size: 10px;
+    color: hsl(185, 5%, 54%);;
+}
+.reset{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(185, 41%, 84%) ;
+    color:hsl(183, 100%, 15%);
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    margin-top:90px;
+    cursor: pointer;
+    
+    transition: all 0.6s ease-in-out;
+
+}
+.reset:focus{
+    
+    transform: scale(0.95);
+    transition: all 0.6s ease-in-out;
+}
+
+.inputText{
+    border: none;
+    width: 90%;
+    box-shadow: hsl(184, 14%, 56%) 0px 2px 5px -1px, hsl(184, 14%, 56%) 0px 1px 3px -1px;
+    padding: 10px;
+    line-height: 10px;
+    background-color: hsl(185, 41%, 84%) ;
+    color:hsl(182, 12%, 41%); 
+    margin: 5px;
+    text-align: right;
+}
+.iconDollers{
+    position: relative;
+    top: 32px;
+    left: 17px;
+}
+.persend .number{
+    width:28%;
+    background-color: hsl(183, 100%, 15%); 
+    color: hsl(185, 41%, 84%);
+    border-radius: 5px;
+    border: none;
+    padding:15px 5px;
+    margin:5px;
+    cursor: pointer;
+    
+}
+.persend .number.custom{
+    background-color:hsl(185, 41%, 84%) ;
+    color:hsl(183, 100%, 15%); 
+    outline: none;
+    width: 25%;
+    text-align: center;
+}
+
+.persend .number.cayn{
+    background-color:hsl(172, 67%, 45%);
+    color:hsl(183, 100%, 15%); 
+}
+.iconPerson{
+    position: relative;
+    top: 32px;
+    left: 17px;
+}
+.inputDesc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:5px 0 -10px 0;
+}
+.alarm{
+    color: red;
+    font-size: 12px;
+
+}
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/logo.svg" alt="logo"/>
+</header>
+  <section class="conatiner">
+    <div class="rightSection">
+        <div class="tipAmount box">
+          <div>
+            <h5>tip amount</h5>
+            <small>/person</small>
+          </div>
+          <h1 class="amountPeople">0.0</h1>
+        </div>
+        
+        <div class="total box">
+          <div>
+            <h5>total</h5> 
+            <small>/person</small>
+          </div>
+          <h1 class="totalPeople"> 0.0</h1>
+  
+        </div>
+        <input type="reset" class="reset" valu="reset"/>
+    </div>
+    <div class="leftSection">
+      <div class="showInput">
+        <h4 class="title">
+          Bill
+        </h4>
+        
+          <img  class="iconDollers"src="images/icon-dollar.svg" alt="icondollers"/>
+          <input type="text" class="inputText" id="inputText" />
+
+      </div>
+      <div class="persend">
+        <h5 class="title">  Select Tip %</h5>
+        
+        <button id="number" class="number" value="0.05">5%</button>
+        <button class="number cayn" value="0.1">10%</button>
+        <button  class="number" value="0.15" >15%</button>
+        <button  class="number"  value="0.25">25%</button>
+        <button  class="number"  value="0.5">50%</button>
+  
+        <input  class="number custom"  value="" type="text" placeholder="cusotm"/>
+      </div>
+      <div class="enterNumber">
+        <div class="inputDesc">
+          <h5 class="title">
+            Number of People
+          </h5>
+          <span class="alarm">can`t be zero</span>
+        </div>
+        <img src="images/icon-person.svg" alt="person" class="iconPerson"/>
+        <input type="number" class="inputText" id="personNumber"/>
+      </div>
+    </div>
+  </section>
+
+  </div>
+  <script src="min.js"></script>
+</body>
+</html>
