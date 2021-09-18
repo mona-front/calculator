@@ -84,7 +84,7 @@ header{
 .reset:focus{
     
     transform: scale(0.95);
-    transition: transform 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .inputText{
@@ -116,7 +116,6 @@ header{
 }
 .number:focus{
     transform: scale(0.95);
-    transition: transform 0.2s ease-in-out;
 }
 .persend .number.custom{
     background-color:hsl(185, 41%, 84%) ;
